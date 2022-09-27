@@ -6,12 +6,12 @@ function Header() {
   return (
     <>
       {/* <!-- page-header --> */}
-      <div class="page-header">
-        <div class="container">
-          <div class="row">
-            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-              <div class="page-caption">
-                <h1 class="page-title">Générateur de meme</h1>
+      <div className="page-header">
+        <div className="container">
+          <div className="row">
+            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+              <div className="page-caption">
+                <h1 className="page-title">Générateur de meme</h1>
               </div>
             </div>
           </div>
@@ -19,13 +19,13 @@ function Header() {
       </div>
       {/* <!-- /.page-header--> */}
       {/* <!-- card-section --> */}
-      <div class="card-section">
-        <div class="container">
-          <div class="card-block bg-white mb30">
-            <div class="row">
-              <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+      <div className="card-section">
+        <div className="container">
+          <div className="card-block bg-white mb30">
+            <div className="row">
+              <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                 {/* <!-- section-title --> */}
-                <div class="section-title mb-0">
+                <div className="section-title mb-0">
                   <h2 className="text-center">Créer un meme</h2>
                 </div>
                 {/* <!-- /.section-title --> */}

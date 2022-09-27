@@ -8,7 +8,7 @@ function HomePage({ images }) {
       <div className="d-flex flex-wrap">
         {images.map((image) => {
           return (
-            <div className="meme card text-center" key={image.id}>
+            <div className="meme card text-center mb-3 me-4" key={image.id}>
               <Link to={`/meme/${image.id}`} state={{ data: image }}>
                 <img
                   className="card-img-top"

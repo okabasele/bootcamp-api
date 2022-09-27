@@ -1,6 +1,7 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import MemeGenerator from "./pages/MemeGenerator";
+import NewMeme from "./pages/NewMeme";
 import HomePage from "./pages/HomePage";
 import Header from "./components/Header";
 function App() {
@@ -25,6 +26,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<HomePage images={images} />}></Route>
         <Route path="meme/:memeId" element={<MemeGenerator />}></Route>
+        <Route path="generated" element={<NewMeme />}></Route>
       </Routes>
 
       </div>
