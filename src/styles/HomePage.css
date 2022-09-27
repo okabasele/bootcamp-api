@@ -1,5 +1,37 @@
 img {
-    max-width: 200px; /* You can set the dimensions to whatever you want */
-    max-height: 200px;
+    max-width: 10rem;
+    /* You can set the dimensions to whatever you want */
+    max-height: 10rem;
     object-fit: cover;
+}
+
+.card {
+    width: 18rem;
+}
+
+@media only screen and (max-width: 600px) {
+
+    /* Small devices (phones, 600px and down) */
+    .card {
+        width: 8rem;
+    }
+
+    img {
+        max-width: 9rem;
+        max-height: 9rem;
+
+    }
+}
+
+/* Medium devices (landscape tablets, 992px and up) */
+@media only screen and (max-width: 992px) {
+    .card {
+        width: 10rem;
+    }
+
+    img {
+        max-width: 11rem;
+        max-height: 11rem;
+
+    }
 }
