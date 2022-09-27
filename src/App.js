@@ -9,6 +9,7 @@ function App() {
   const [images, setImages] = React.useState([]);
 
   React.useEffect(() => {
+    document.title = "Générateur de meme";
     fetch(url)
       .then((res) => {
         return res.json();
