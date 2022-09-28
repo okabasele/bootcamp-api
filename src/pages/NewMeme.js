@@ -13,7 +13,7 @@ function MemeGenerated() {
             {url && <img className="me-5" src={url} alt="meme"/>}
             <div className="buttons d-flex flex-column ">
 
-            <button className="btn btn-secondary mb-3" onClick={downloadImage(url)}>Télécharger</button>
+            <button className="btn btn-secondary mb-3" onClick={(e) => {downloadImage(e,url)}}>Télécharger</button>
             <button onClick={() => navigate('/')} className="btn btn-secondary">
             Créer d'autres meme
             </button>
